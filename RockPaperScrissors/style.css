@@ -1,0 +1,34 @@
+body{
+    background-image: url(./img/back.png);
+}
+
+.text-holder{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: fit-content;
+    padding-right:10px;
+}
+
+.image-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.image-holder img{
+    margin: 20px;
+}
+
+.enemy-image-holder{
+    height: 254px;
+    display: flex;
+    justify-content: center;
+}
+
+.enemy-image-holder img{
+    display: none;
+}
+
+.restartButton{
+    display: flex;
+    margin: auto;
+    margin-top:50px;
+}

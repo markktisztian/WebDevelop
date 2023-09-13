@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>RockPaperScrissorsMRK</title>
+</head>
+<body>
+    <div class="text-holder">
+        <p id="win-text">Győztes:0</p>
+        <p id="draw-text">Döntetlen:0</p>
+        <p id="lose-text">Vereség:0</p>
+    </div>
+    <div class="image-holder">
+        <img id="rock" src="./img/Rock.jpg" onclick="rockOnClick()" alt="">
+        <img id="paper" src="./img/Paper.jpg" onclick="paperOnClick()" alt="">
+        <img id="scrissors" src="./img/Scrissors.jpg" onclick="scrissorsOnClick()" alt="">
+    </div>
+    <div class="enemy-image-holder">
+        <img id="enemyrock" src="./img/Rock.jpg" alt="">
+        <img id="enemypaper" src="./img/Paper.jpg" alt="">
+        <img id="enemyscrissors" src="./img/Scrissors.jpg" alt="">
+    </div>
+    <button onclick="restart()" class="restartButton">Restart</button>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
